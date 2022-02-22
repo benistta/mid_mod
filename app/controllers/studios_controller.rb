@@ -1,0 +1,10 @@
+class StudiosController < ApplicationController
+  def index
+    @studios = Studio.all
+    @movies = Movie.all
+  end
+
+  # def show
+  #   @studio = Studio.find(params[:id])
+  # end
+end
